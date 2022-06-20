@@ -1,0 +1,7 @@
+{
+  "name": "NewsApi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
