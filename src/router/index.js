@@ -38,8 +38,13 @@ const routes = [
       },
       {
         name: 'empresa',
-        path: '/empresa/:id',
+        path: 'empresa/:id',
         component: () => import('@/views/Empresa.vue')
+      },
+      {
+        name: 'success',
+        path: 'success',
+        component: () => import('@/views/Success.vue')
       },
     ]
   }
